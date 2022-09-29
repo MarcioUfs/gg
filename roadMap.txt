@@ -1,0 +1,25 @@
+Rota POST login
+http://localhost:3050/user/login
+solicitacao
+{
+	"login":"000.000.000-01",
+	"password":"123"
+}
+retorno
+{
+	"error": false,
+	"msg": "usuario logado!",
+	"id": 2,
+	"token": "sdf7ew84f8we7r84gh4t8633#sae8d5f44-e7r84sae8d5f4gh4t8633#4-895*56595d4fseggFsae8d5f4e4fd5f4fTtt"
+}
+
+********************************
+Rota GET dados do usuario
+http://localhost:3050/user/me
+{
+	"error": false,
+	"msg": "Dados do usuario",
+	"nome": "Nome Usuario Teste",
+	"codigo": "356523",
+	"matricula": "20158487415484"
+}
