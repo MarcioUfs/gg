@@ -7,10 +7,10 @@ async function login(req, res) {
     return res.status(403).json({ error: true, msg: "Acesso não autorizado" })
 }
 async function me(req, res) {
-    return res.status(200).json({ 
+    return res.status(200).json({
         error: false,
         msg: "Dados do usuario",
-        nome:"Nome Usuario Teste",
+        nome: "Nome Usuario Teste",
         codigo: "356523",
         matricula: "20158487415484"
     })
