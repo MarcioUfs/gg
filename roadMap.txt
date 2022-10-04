@@ -1,3 +1,12 @@
+npm init
+npm install express
+npm install body-parse 
+npm install nodemon
+npm install cors
+adicionar arquivo server, routes e controller
+subir projeto no git
+
+
 Rota POST login
 http://localhost:3050/user/login
 solicitacao
